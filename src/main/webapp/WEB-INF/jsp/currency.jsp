@@ -47,22 +47,22 @@
             </td>
         </tr>
     </table>
-<table>
-  <tr>
-    <td>
-    <button type="submit">Calculate</button>
-    </td>
+    <table>
+        <tr>
+            <td>
+                <button type="submit">Calculate</button>
+            </td>
 </form>
 
 
 <form method="POST" action="${contextPath}/clearFields">
-  <td>
-    <button type="submit">Clear Fields</button>
-  </td>
+            <td>
+                <button type="submit">Clear Fields</button>
+            </td>
 </form>
 
 
-  </table>
+    </table>
 
 </body>
 </html>
