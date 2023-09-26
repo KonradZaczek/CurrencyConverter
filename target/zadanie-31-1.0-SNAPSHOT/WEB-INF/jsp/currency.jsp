@@ -17,9 +17,7 @@
         <tr>
             <td><label for="inputValue">Input currency value:</label></td>
             <td><input type="number" name="inputValue" step="0.01" required value="${inputValue}" style=width: 200px></td>
-            <td>
-                <label for="inputCurrency">Choose input currency:</label>
-            </td>
+            
             <td>
                 <select name="inputCurrency" required style="width: 200px; text-align: center;">
                     <option value="">---Choose input currency---</option>
@@ -34,9 +32,7 @@
             <td><label for="outputValue">Output currency value:</label></td>
             <td><input type="text" id="outputValue" name="outputValue" readonly value="${outputValue}">
             </td>
-            <td>
-                <label for="outputCurrency">Choose output currency:</label>
-            </td>
+
             <td>
                 <select name="outputCurrency" required style="width: 200px; text-align: center;">
                     <option value="">---Choose output currency---</option>
@@ -47,22 +43,22 @@
             </td>
         </tr>
     </table>
-<table>
-  <tr>
-    <td>
-    <button type="submit">Calculate</button>
-    </td>
+    <table>
+        <tr>
+            <td>
+                <button type="submit">Calculate</button>
+            </td>
 </form>
 
 
 <form method="POST" action="${contextPath}/clearFields">
-  <td>
-    <button type="submit">Clear Fields</button>
-  </td>
+            <td>
+                <button type="submit">Clear Fields</button>
+            </td>
 </form>
 
 
-  </table>
+    </table>
 
 </body>
 </html>
